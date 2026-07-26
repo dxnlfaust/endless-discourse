@@ -4,3 +4,13 @@ html .background-container {
     url($bg) center / cover no-repeat !important;
   clip-path: none !important;
 }
+
+.welcome-banner__title {
+    text-shadow: 0px 0px 10px white;
+}
+
+.welcome-banner__wrap .search-menu .search-menu-container, #main-outlet-wrapper #main-outlet, #main-outlet-wrapper .sidebar-wrapper {
+  -webkit-box-shadow: 0 0 10px white;
+  -moz-box-shadow: 0 0 10px white;
+  box-shadow: 0 0 10px white;
+}
