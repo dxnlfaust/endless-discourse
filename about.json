@@ -1,0 +1,9 @@
+{
+  "name": "Endless background",
+  "about_url": "https://github.com/YOURNAME/endless-background",
+  "license_url": "https://github.com/YOURNAME/endless-background/blob/main/LICENSE",
+  "component": true,
+  "assets": {
+    "bg": "assets/background.jpg"
+  }
+}
