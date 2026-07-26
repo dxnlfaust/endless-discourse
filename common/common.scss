@@ -21,8 +21,8 @@ html .background-container {
 
 @media (max-width: 639px) {
   .full-width .contents .topic-list .topic-list-body .topic-list-item {
-    -webkit-box-shadow: none !important;
-    -moz-box-shadow: none !important;
-    box-shadow: none !important;
+    -webkit-box-shadow: 0 0 10px white !important;
+    -moz-box-shadow: 0 0 10px white !important;
+    box-shadow: 0 0 10px white !important;
   }
 }
