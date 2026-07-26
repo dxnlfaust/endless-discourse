@@ -9,8 +9,20 @@ html .background-container {
     text-shadow: 0px 0px 10px white;
 }
 
-.welcome-banner__wrap .search-menu .search-menu-container, #main-outlet-wrapper #main-outlet, #main-outlet-wrapper .sidebar-wrapper {
-  -webkit-box-shadow: 0 0 10px white !important;
-  -moz-box-shadow: 0 0 10px white !important;
-  box-shadow: 0 0 10px white !important;
+
+@media (min-width: 640px) {
+    .welcome-banner__wrap .search-menu .search-menu-container, #main-outlet-wrapper #main-outlet, #main-outlet-wrapper .sidebar-wrapper {
+    -webkit-box-shadow: 0 0 10px white !important;
+    -moz-box-shadow: 0 0 10px white !important;
+    box-shadow: 0 0 10px white !important;
+    }
+}
+
+
+@media (max-width: 639px) {
+  .full-width .contents .topic-list .topic-list-body .topic-list-item {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+  }
 }
