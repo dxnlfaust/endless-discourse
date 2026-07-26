@@ -10,7 +10,7 @@ html .background-container {
 }
 
 .welcome-banner__wrap .search-menu .search-menu-container, #main-outlet-wrapper #main-outlet, #main-outlet-wrapper .sidebar-wrapper {
-  -webkit-box-shadow: 0 0 10px white;
-  -moz-box-shadow: 0 0 10px white;
-  box-shadow: 0 0 10px white;
+  -webkit-box-shadow: 0 0 10px white !important;
+  -moz-box-shadow: 0 0 10px white !important;
+  box-shadow: 0 0 10px white !important;
 }
